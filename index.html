@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index_files/style.css">
+    <link rel="icon" href="http://127.0.0.1:5500/images/Facebook_Logo_(2019).png.webp">
+    <title>Facebook - log in or sign up</title>
+</head>
+<body>
+    <div id="container">
+        <div id="recent-logins">
+            <img id="facebook" src="./index_files/dF5SId3UHWd.svg" alt="facebook-logo">
+            <div id="title">Recent logins</div>
+            <div id="subtitle">click your picture or add an account.</div>
+            <div id="cards">
+                <div id="card-1">
+                    <div id="cancel">x</div>
+                    <img id="card-1-img" src="./index_files/prof.jfif" alt="profile picture">
+                    <div class="username">Glen</div>
+                </div>
+                <div id="card-2">
+                    <img id="card-2-img" src="./index_files/add.png" alt="add account">
+                    <div id="add-account" class="username">Add Account</div>
+                </div>
+            </div>
+        </div>
+        <div id="login">
+            <input type="email" placeholder="Email or Phone Number">
+            <input type="password" placeholder="Password">
+            <input type="button" value="Login" id="login-button">
+            <a href="http://127.0.0.1:5500/index.html#">Forgot Password?</a>
+            <hr style="width: 95%;">
+            <input type="button" value="Create New Account" id="create-new-account">
+            <p><strong>Create a Page</strong> for a celebrity, brand or business.</p>
+
+        </div>
+    </div>
+    <footer><div>English (UK)
+        தமிழ்
+        తెలుగు
+        ಕನ್ನಡ
+        اردو
+        हिन्दी
+        മലയാളം
+        සිංහල
+        ਪੰਜਾਬੀ
+        বাংলা
+        ગુજરાતી
+        <hr style="width: 100%;">
+        Sign Up Log In Messenger Facebook Lite Watch Places Games Market place Facebook Pay Oculus Portal 
+        Instagram Bulletin Local
+        <br>
+        Fundraisers Services Voting Information Centre Groups About Create ad Create Page Developers Careers Privacy Cookies Ad Choices Terms Help Contact uploading and non-users Settings Activity log 
+       <br><br>
+        Meta © 2022
+    </div>
+</footer>
+    
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
